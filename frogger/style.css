@@ -1,0 +1,64 @@
+.grid {
+    margin: auto;
+    border: 1px solid black;
+    height: 630px;
+    width: 630px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 70px;
+    width: 70px;
+}
+
+.ending-block{
+    background-color: burlywood;
+}
+
+.starting-block{
+    background-color:rgb(0, 0, 135);
+}
+
+.l1,.l2,.l3{
+    background-color: brown;
+}
+.l4,.l5{
+    background-color: lightblue;
+}
+
+.c2,.c3{
+    background-color: grey;
+}
+.c1{
+    background-color: black;
+}
+
+
+.text,
+.button{
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    /* padding: 20px; */
+}
+
+.text h3{
+    margin: auto;
+    width: 25%;
+    padding : 10px;
+
+}
+
+.frog{
+    background-color: green;
+}
+
+#button1{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    /* flex-wrap: wrap; */
+}
+

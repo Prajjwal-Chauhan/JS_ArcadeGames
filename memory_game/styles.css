@@ -1,0 +1,13 @@
+#grid {
+    height: 500px;
+    width: 700px;
+    /* overflow: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    /* padding: 10px; */
+}
+
+#grid .img {
+    border-color: darkblue;
+}

@@ -1,0 +1,28 @@
+.grid{
+    height: 400px;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: solid black 2px;
+
+}
+
+.mole {
+    background-color: black;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+    font-size: 24px;
+    padding: 12px 28px;
+    margin: 10px 60px;
+    display: inline-block;
+}
